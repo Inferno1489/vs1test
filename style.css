@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.main-div{
+	height: 100vh;
+	background-color: #7a7a7a;
+}
+.title1{
+	text-align: center;
+	color: #efefef;
+	font-size: 18px;
+	padding-top: 100px;
+	letter-spacing: 3px;
+}
+h2{
+	font-weight: normal;
+}
+.title2{
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	margin-top: 30px;
+}
+.title3{
+	text-align: center;
+	color: #bdbdbd;
+	font-size: 22px;
+	margin-top: 40px;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 50px;
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+}
+.inp1, .inp2{
+	outline: none;
+	border: none;
+	width: 200px;
+	height: 50px;
+	padding-left: 10px;
+	font-size: 16px;
+	background-color: #fbfbfb;
+	transition: 0.3s;
+}
+.inp1:hover, .inp2:hover{
+	background-color: #dbdbdb;
+}
+.inp1{
+	position: relative;
+	left: 3px;
+}
+.inp3{
+	width: 200px;
+	height: 50px;
+	background-color: #44e3a1;
+	border: none;
+	outline: none;
+	position: relative;
+	right: 3px;
+	font-size: 16px;
+	color: white;
+	transition: 0.3s;
+}
+.inp3:hover{
+	background-color: #26bf80;
+}
+.div-form{
+	width: 629px;
+	margin: auto;
+	margin-top: 100px;
+}
+.div-podformtext{
+	width: 1200px;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+	color: #dedede;
+}
+.greentext{
+	color: #26bf80;
+}
+.div-bar{
+	height: 100px;
+	display: grid;
+	grid-template-columns: 15% 5% 5% 5% 5% 5% 5% 5% 30% 3% 3% 3% 11%;
+	box-shadow: 0 0 20px black;
+}
+.itemtext{
+	padding-top: 40px;
+	text-align: center;
+	transition: background-color 0.2s ease-in;
+}
+.itemtext:hover{
+	background-color: #cfcfcf;
+}
+.img1{
+	width: 80px;
+	height: 80px;
+	padding-top: 10px;
+}
+.img2{
+	width: 50px;
+	height: 50px;
+	padding-top: 25px;
+}
